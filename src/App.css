@@ -1,0 +1,60 @@
+.App {
+  display:flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  background-color: gray;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:1px solid black;
+  height:80vh;
+  color:white;
+  padding:10px;
+}
+
+button {
+  border:none;
+  border-radius: 20px;
+  padding: 10px;
+  margin:0 5px;
+
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  border:none;
+  width:500px;
+}
+.formStyle {
+  display:flex;
+  width:450px;
+  justify-content: space-around;
+}
+
+.TodoItems{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.todoList {
+  border-radius: 50px;
+  background-color:#5dadf8;
+  display:flex;
+  margin: 10px 0;
+  width:500px;
+  padding:10px 20px;
+  align-items: center; 
+}
+
+.todoText {
+  flex:1
+   /*  it takes the maximum space for span tag */
+}
